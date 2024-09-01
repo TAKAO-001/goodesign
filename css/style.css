@@ -508,9 +508,10 @@ img {
   /* About */
   .profile {
     display: block;
+    justify-content: center;
   }
   .profile-img {
-    width: 0px;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 25px;
   }
