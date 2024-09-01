@@ -12,13 +12,11 @@ a {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   vertical-align: bottom;
   border-style: none;
 }
-
-
 
 .pc-only {
   display: block;
@@ -44,7 +42,7 @@ img {
 }
 
 .container {
-  max-width: 1340px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 40px;
 }
@@ -148,8 +146,9 @@ img {
 }
 
 .mv-container {
-  position: relative;
-  padding: 0 20px;
+  position: relativea;
+  width: 100%;
+  padding: 0 0px;
 }
 
 .mv-container img {
@@ -181,8 +180,10 @@ img {
   margin-right: 0;
 }
 
-.works-img img {
-  border: 1px solid #e6e6e6;
+.works-img {
+  border: 1px solid #e6e6e6;  
+  display: flex;
+  justify-content: center;
 }
 
 .works-name {
@@ -269,14 +270,22 @@ img {
 .contact {
   text-align: center;
 }
-
+.sns-img {
+  width: 60px;
+  height: auto;
+  margin-right: 20px;
+}
 .contact-item:not(:last-child) {
   margin-right: 10px;
 }
-
 .contact-text {
   margin-top: 10px;
 }
+.contact-list {
+  display: flex;
+  justify-content: center;
+}
+
 /*--------------------------------
  ページトップ
 ---------------------------------*/
@@ -501,7 +510,7 @@ img {
     display: block;
   }
   .profile-img {
-    width: 150px;
+    width: 0px;
     margin: 0 auto;
     margin-bottom: 25px;
   }
